@@ -9,3 +9,9 @@ const express = require('express');
 const router = express.Router();
 
 /* API ROUTES */
+router.get('/:category/:date', function (req, res) {
+
+});
+
+
+module.exports = router;
