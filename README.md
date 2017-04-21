@@ -19,3 +19,7 @@
 - Title
 - Date
 - Link to Watchtower of wol.jw.org
+
+
+
+-- Category- ID/Date - [Title, Date, Link(s), Scripture[Book, Chapter, Verse(), Text], Comment]

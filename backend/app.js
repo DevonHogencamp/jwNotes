@@ -13,7 +13,7 @@ const app = express();
 // Port Number
 const port = 3000;
 
-
+app.use('/api', require('./routes/router'));
 
 // Setting up the server with a message to tell us everything is up and running
 app.listen(port, function () {
