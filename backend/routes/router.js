@@ -8,29 +8,15 @@ const express = require('express');
 // Express router
 const router = express.Router();
 
+// BibleStudy Model
+const BibleStudy = require('../models/BibleStudy');
+
 /* API ROUTES */
-
-/*-- Category- ID - [Title, Date, Link(s), Scripture[Book, Chapter, Verse(s), Text], Comment]*/
-
-/*
-    Home - Get Categories
-    Home - Post Note REQ[Category] Recored new Categories
-
-    Category - Get Notes[ID, Title, Date]
-    Category - Delete Note[ID]
-
-    Note - Get Note based on ID and get all its contents
-    Note - Post (whatever is listed that I can)
-    Note - Update info[ID]
-    Note - Delete info[ID]
-*/
-
-router.get('/', function (req, res) {
-    /*Home - Get Categories*/
-});
-
 router.post('/', function (req, res) {
     /*Home - Post Note REQ[Category] Recored new Categories*/
+    BibleStudy.create(req.body).then(function (bibleStudy) {
+        res.send(bibleStudy);
+    });
 });
 
 router.get('/:category', function (req, res) {
