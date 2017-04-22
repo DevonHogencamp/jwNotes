@@ -28,6 +28,8 @@ notes[ [Scripture, Comment], [Scripture, Comment] ]
 
 
 
+
+
 -- Category- ID/Date - [Title, Date, Link(s), Scripture[Book, Chapter, Verse(), Text], Comment]
 
 Home - Get Categories

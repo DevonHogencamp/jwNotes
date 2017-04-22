@@ -21,6 +21,8 @@ router.post('/', function (req, res) {
 
 router.get('/:category', function (req, res) {
     /*Category - Get Notes[ID, Title, Date]*/
+
+    
 });
 
 router.delete('/:category/:id', function (req, res) {

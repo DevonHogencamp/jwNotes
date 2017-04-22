@@ -31,21 +31,3 @@ const BibleStudy = mongoose.model('bibleStudy', BibleStudySchema);
 
 // Export this BibleStudy Model
 module.exports = BibleStudy;
-
-/*
-- Date
-- Book and Chapter
-
-**Scripture**
-- Book
-- Chapter
-- Verse(s)
-- Text
-
-**Comment**
-
-- Text
-
-
-notes[ [Scripture, Comment], [Scripture, Comment] ]
-*/
