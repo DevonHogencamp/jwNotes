@@ -1,0 +1,34 @@
+{
+    "topic": "Creation",
+    "date": "<2017-04-23>",
+    "text": {
+        "scripture": {
+            "book": "Matthew",
+            "chapter": 6,
+            "verse": [6, 7],
+            "text": "The text scripture"
+        },
+        "text": "What the text says",
+        "comment": "How I apply it"
+    },
+    "material": [
+        {
+            "book": "Genesis",
+            "chapter": [1, 2]
+        }
+    ],
+    "links": [
+        {
+            "title": "Link from some watchtower",
+            "link": "jw.org"
+        }
+    ],
+    "notes": [
+        {
+            "book": "Genesis",
+            "chapter": 1,
+            "verse": [1, 2],
+            "comment": "Jehovah created everything"
+        }
+    ]
+}

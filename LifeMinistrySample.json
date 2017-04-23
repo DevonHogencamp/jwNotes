@@ -1,0 +1,61 @@
+{
+    "title": String,
+    "date": "<YYYY-mm-dd>",
+    "link": String,
+    "bibleReading": {
+        "book": String,
+        "chapters": [Number],
+        "notes": [
+            {
+                book: String,
+                chapter: Number,
+                verse: [Number],
+                comment: String
+            }
+        ]
+    },
+    gems: {
+        question1: {
+            question: String,
+            answer: String
+        },
+        question2: {
+            question: String,
+            answer: String
+        },
+        jehovah: {
+            book: String,
+            chapter: Number,
+            verse: [Number],
+            comment: String
+        },
+        other: {
+            book: String,
+            chapter: Number,
+            verse: [Number],
+            comment: String
+        }
+    },
+    chistianLiving: {
+        title: String,
+        notes: [
+            {
+                book: String,
+                chapter: Number,
+                verse: [Number],
+                comment: String
+            }
+        ]
+    },
+    bookStudy: {
+        title: String,
+        notes: [
+            {
+                book: String,
+                chapter: Number,
+                verse: [Number],
+                comment: String
+            }
+        ]
+    }
+}
